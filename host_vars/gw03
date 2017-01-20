@@ -68,3 +68,79 @@ domaenenliste:
       dhcp_start: 10.58.8.128
       dhcp_ende: 10.58.11.254
       server_id: 3
+   "07":
+      dhcp_start: 10.58.16.128
+      dhcp_ende: 10.58.19.254
+      server_id: 3
+   "08":
+      dhcp_start: 10.58.24.128
+      dhcp_ende: 10.58.27.254
+      server_id: 3
+   "09":
+      dhcp_start: 10.58.32.128
+      dhcp_ende: 10.58.35.254
+      server_id: 3
+   "10":
+      dhcp_start: 10.58.40.128
+      dhcp_ende: 10.58.43.254
+      server_id: 3
+   "11":
+      dhcp_start: 10.58.48.128
+      dhcp_ende: 10.58.51.254
+      server_id: 3
+   "12":
+      dhcp_start: 10.58.56.128
+      dhcp_ende: 10.58.59.254
+      server_id: 3
+   "13":
+      dhcp_start: 10.58.64.128
+      dhcp_ende: 10.58.67.254
+      server_id: 3
+   "14":
+      dhcp_start: 10.58.72.128
+      dhcp_ende: 10.58.75.254
+      server_id: 3
+   "15":
+      dhcp_start: 10.58.80.128
+      dhcp_ende: 10.58.83.254
+      server_id: 3
+   "16":
+      dhcp_start: 10.58.88.128
+      dhcp_ende: 10.58.91.254
+      server_id: 3
+   "17":
+      dhcp_start: 10.58.96.128
+      dhcp_ende: 10.58.99.254
+      server_id: 3
+   "18":
+      dhcp_start: 10.58.104.128
+      dhcp_ende: 10.58.107.254
+      server_id: 3
+   "18":
+      dhcp_start: 10.58.112.128
+      dhcp_ende: 10.58.115.254
+      server_id: 3
+   "19":
+      dhcp_start: 10.58.120.128
+      dhcp_ende: 10.58.123.254
+      server_id: 3
+   "20":
+      dhcp_start: 10.58.128.128
+      dhcp_ende: 10.58.131.254
+      server_id: 3
+   "21":
+      dhcp_start: 10.58.136.128
+      dhcp_ende: 10.58.139.254
+      server_id: 3
+   "22":
+      dhcp_start: 10.58.144.128
+      dhcp_ende: 10.58.147.254
+      server_id: 3
+   "23":
+      dhcp_start: 10.58.152.128
+      dhcp_ende: 10.58.155.254
+      server_id: 3
+   "36":
+      dhcp_start: 10.58.160.128
+      dhcp_ende: 10.58.163.254
+      server_id: 3
