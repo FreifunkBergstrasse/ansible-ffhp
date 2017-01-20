@@ -7,6 +7,7 @@ domaenen:
     ffv6_network: 2a03:2260:1010:100::/64
     map_scale: 0.9
     firmware: ffhpd01/
+
   "02":
     name: Moerlenbach
     community: Bergstrasse
@@ -14,6 +15,7 @@ domaenen:
     ffv6_network: 2a03:2260:1010:200::/64
     map_scale: 0.9
     firmware: ffhpd02/
+
   "03":
     name: Einhausen
     community: Bergstrasse
@@ -21,6 +23,7 @@ domaenen:
     ffv6_network: 2a03:2260:1010:300::/64
     map_scale: 0.9
     firmware: ffhpd03/
+
   "04":
     name: Bensheim
     community: Bergstrasse
@@ -28,6 +31,7 @@ domaenen:
     ffv6_network: 2a03:2260:1010:400::/64
     map_scale: 0.9
     firmware: ffhpd04/
+
   "05":
     name: Buerstadt
     community: Bergstrasse
@@ -35,6 +39,7 @@ domaenen:
     ffv6_network: 2a03:2260:1010:500::/64
     map_scale: 0.9
     firmware: ffhpd05/
+
   "06":
     name: Hirschhorn
     community: Bergstrasse
@@ -42,6 +47,7 @@ domaenen:
     ffv6_network: 2a03:2260:1010:600::/64
     map_scale: 0.9
     firmware: ffhpd06/
+
   "07":
     name: Lampertheim
     community: Bergstrasse
@@ -50,6 +56,141 @@ domaenen:
     map_scale: 0.9
     firmware: ffhpd07/
 
+  "08":
+    name: Lindenfels
+    community: Bergstrasse
+    ffv4_network: 10.58.24.0/21
+    ffv6_network: 2a03:2260:1010:800::/64
+    map_scale: 0.9
+    firmware: ffhpd08/
+
+  "09":
+    name: Lorsch
+    community: Bergstrasse
+    ffv4_network: 10.58.32.0/21
+    ffv6_network: 2a03:2260:1010:900::/64
+    map_scale: 0.9
+    firmware: ffhpd09/
+
+  "10":
+    name: Neckarsteinach
+    community: Bergstrasse
+    ffv4_network: 10.58.40.0/21
+    ffv6_network: 2a03:2260:1010:1000::/64
+    map_scale: 0.9
+    firmware: ffhpd10/
+
+  "11":
+    name: Viernheim
+    community: Bergstrasse
+    ffv4_network: 10.58.48.0/21
+    ffv6_network: 2a03:2260:1010:1100::/64
+    map_scale: 0.9
+    firmware: ffhpd11/
+
+  "12":
+    name: Zwingenberg
+    community: Bergstrasse
+    ffv4_network: 10.58.56.0/21
+    ffv6_network: 2a03:2260:1010:1200::/64
+    map_scale: 0.9
+    firmware: ffhpd12/
+
+  "13":
+    name: Abtsteinach
+    community: Bergstrasse
+    ffv4_network: 10.58.64.0/21
+    ffv6_network: 2a03:2260:1010:1300::/64
+    map_scale: 0.9
+    firmware: ffhpd13/
+
+  "14":
+    name: Biblis
+    community: Bergstrasse
+    ffv4_network: 10.58.72.0/21
+    ffv6_network: 2a03:2260:1010:1400::/64
+    map_scale: 0.9
+    firmware: ffhpd14/
+
+  "15":
+    name: Birkenau
+    community: Bergstrasse
+    ffv4_network: 10.58.80.0/21
+    ffv6_network: 2a03:2260:1010:1500::/64
+    map_scale: 0.9
+    firmware: ffhpd15/
+
+  "16":
+    name: Fuerth
+    community: Bergstrasse
+    ffv4_network: 10.58.88.0/21
+    ffv6_network: 2a03:2260:1010:1600::/64
+    map_scale: 0.9
+    firmware: ffhpd16/
+
+  "17":
+    name: Gorxheimertal
+    community: Bergstrasse
+    ffv4_network: 10.58.96.0/21
+    ffv6_network: 2a03:2260:1010:1700::/64
+    map_scale: 0.9
+    firmware: ffhpd17/
+
+  "18":
+    name: Grasellenbach
+    community: Bergstrasse
+    ffv4_network: 10.58.104.0/21
+    ffv6_network: 2a03:2260:1010:1800::/64
+    map_scale: 0.9
+    firmware: ffhpd18/
+
+  "19":
+    name: Gross-Rohrheim
+    community: Bergstrasse
+    ffv4_network: 10.58.112.0/21
+    ffv6_network: 2a03:2260:1010:1900::/64
+    map_scale: 0.9
+    firmware: ffhpd19/
+
+  "20":
+    name: Lautertal
+    community: Bergstrasse
+    ffv4_network: 10.58.120.0/21
+    ffv6_network: 2a03:2260:1010:2000::/64
+    map_scale: 0.9
+    firmware: ffhpd20/
+
+  "21":
+    name: Rimbach
+    community: Bergstrasse
+    ffv4_network: 10.58.128.0/21
+    ffv6_network: 2a03:2260:1010:2100::/64
+    map_scale: 0.9
+    firmware: ffhpd21/
+
+  "22":
+    name: Wald-Michelbach
+    community: Bergstrasse
+    ffv4_network: 10.58.136.0/21
+    ffv6_network: 2a03:2260:1010:2200::/64
+    map_scale: 0.9
+    firmware: ffhpd22/
+
+  "23":
+    name: Exterritorial
+    community: Bergstrasse
+    ffv4_network: 10.58.144.0/21
+    ffv6_network: 2a03:2260:1010:2300::/64
+    map_scale: 0.9
+    firmware: ffhpd23/
+
+  "36":
+    name: Testdomaene
+    community: Bergstrasse
+    ffv4_network: 10.58.248.0/21
+    ffv6_network: 2a03:2260:1010:3600::/64
+    map_scale: 0.9
+    firmware: ffhpd36/
 
 # Nummer der Routing Tabelle, die auf den Servern verwendet wird 
 routing_table: 42
