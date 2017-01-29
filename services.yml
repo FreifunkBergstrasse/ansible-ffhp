@@ -16,4 +16,4 @@
     - { role: services_bind, tags: "services_bind"}
     - { role: services_ffapi, tags: "services_ffapi"}
     - { role: services_graphite, tags: "services_graphite"}
-- { role: collectd, tags: "collectd"}
+    - { role: collectd, tags: "collectd"}
