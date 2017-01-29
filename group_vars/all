@@ -251,7 +251,7 @@ freifunk:
   name: "Freifunk Bergstrasse"
   kurzname: "ffhp"
   email: info@freifunk-bergstrasse.de
-domain: freifunk-bergstrasse.de
+  domain: freifunk-bergstrasse.de
 
 bind_zonemaster:
   server: service.server.freie-infrastruktur.de
