@@ -4,3 +4,4 @@ collectd:
   collect_l2tp: true
   collect_ipv4ipv6: true
   collect_sysctl: true
+  collect_bind: false
