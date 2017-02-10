@@ -136,7 +136,7 @@ domaenenliste:
       dhcp_start: 10.58.148.128
       dhcp_ende: 10.58.151.254
       server_id: 4
-#   "36":
-#      dhcp_start: 10.58.156.128
-#      dhcp_ende: 10.58.159.254
-#      server_id: 4
+   "36":
+      dhcp_start: 10.58.252.128
+      dhcp_ende: 10.58.255.254
+      server_id: 4
