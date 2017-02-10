@@ -2,7 +2,7 @@ vm_id: 4
 server_id: 4
 server_besitzer: "Freie Infrastruktur Bergstrasse"
 
-server_ipv4_nat: 185.66.194.50/32 
+server_ipv4_nat: 185.66.194.48/32 
     
 ffrl_tun:
 - name: fra0
