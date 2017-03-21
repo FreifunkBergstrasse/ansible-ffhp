@@ -4,4 +4,8 @@ collectd:
   collect_l2tp: true
   collect_ipv4ipv6: true
   collect_sysctl: true
+  collect_ping: true
   collect_bind: false
+  graphite_target:
+    host: 88.99.185.152
+    port: 2003

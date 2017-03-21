@@ -1,5 +1,5 @@
 # Variablen für die Host-Gruppe services
-  
+prune_days: 60  
 # Collectd Konfiguration 
 collectd:
   collect_dhcp: false
@@ -7,7 +7,12 @@ collectd:
   collect_l2tp: false
   collect_ipv4ipv6: false
   collect_sysctl: false
-  collect_bind: false
+  collect_bind: true
+  collect_ping: false
+
+  graphite_target:
+    host: 88.99.185.152
+    port: 2003
 
 administratorenteam:
   - "mpw"

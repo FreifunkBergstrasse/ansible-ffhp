@@ -140,3 +140,9 @@ domaenenliste:
       dhcp_start: 10.58.248.128
       dhcp_ende: 10.58.251.254
       server_id: 3
+
+administratorenteam:
+  - "christoph"
+  - "mrs"
+  - "mpw"
+  - "klaus"
