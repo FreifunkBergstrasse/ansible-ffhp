@@ -274,15 +274,7 @@ batman:
   # Bandbreite, die Batman annoncieren soll 
   upstream: 1024Mbit 
 
-# Einstellungen für DHCP Server 
-dhcp_global:
-  # MTU, die an die Clients im Netzwerk propagiert wird
-  mtu: 1280 
-  # Default-Lease Time 
-  lease_default: 3600
-  # Maximale Lease Time
-  lease_max: 10800
-  domain_search: ffhp
+
 
 # Parameter für das eigene Freifunk-Netzwerk
 ff_network:
@@ -328,6 +320,7 @@ prune_days: 14
 freifunk: 
   name: "Freifunk Bergstrasse"
   kurzname: "ffhp"
+  search_domain: "ffhp"
   email: info@freifunk-bergstrasse.de
   domain: freifunk-bergstrasse.de
 
