@@ -10,6 +10,10 @@ domaenen:
     map_max_age: 14                                                                                                                                    
     map_blinking_hours: 8
     firmware: ffhpd01/
+    dhcp:
+      reservations:
+        - ip: "10.1.160.20"
+          id: "44:d9:e7:51:dc:86"
 
   "02":
     name: Moerlenbach
