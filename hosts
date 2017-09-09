@@ -1,10 +1,9 @@
 [services]
-services		ansible_ssh_host=88.99.185.152
+services		ansible_ssh_host=176.9.38.157
 [mapserver]
-karte                   ansible_ssh_host=138.201.172.77
+karte                   ansible_ssh_host=176.9.38.157
 [gateways]
 gw03			ansible_ssh_host=176.9.38.150 ansible_ssh_port=222
-gw04			ansible_ssh_host=213.133.111.130
 
 
 [domaene-06]

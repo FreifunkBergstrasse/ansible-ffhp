@@ -11,7 +11,7 @@ collectd:
   collect_ping: false
 
   graphite_target:
-    host: 88.99.185.152
+    host: 176.9.38.157
     port: 2003
 
 administratorenteam:
