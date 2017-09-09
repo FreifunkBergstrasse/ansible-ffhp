@@ -296,6 +296,8 @@ administratorenteam:
   - "mrs"
   - "klaus"
   - "christoph"
+  - "corny456"
+  - "descilla"
 
 collectd:
   collect_dhcp: false

@@ -142,12 +142,6 @@ domaenenliste:
       dhcp_ende: 10.58.251.254
       server_id: 3
 
-administratorenteam:
-  - "christoph"
-  - "mrs"
-  - "mpw"
-  - "klaus"
-
 dhcp_type: "kea"
 
 tunneldigger:
