@@ -5,6 +5,7 @@
   roles:
     - { role: hostname, tags: "hostname"}
     - { role: common, tags: "common"}
+    - { role: motd, tags: "motd"}
     - { role: backports-kernel, tags: "backports-kernel"}
     - { role: tunearpcache, tags: "tunearpcache"}
     - { role: services_interfaces, tags: "services_interfaces"}
@@ -14,3 +15,4 @@
     - { role: collectd, tags: "collectd"}
     - { role: py_respondd, tags: "py_respondd"}
     - { role: mapserver_stats, tags: "mapserver_stats"}
+
