@@ -1,7 +1,15 @@
-server_besitzer: "Freie Infrastruktur Bergstrasse"
-vm_id: 9
-server_id: 9
+server_besitzer: "Freie Infrastruktur Bergstraße"
+vm_id: 12
+server_id: 12
 
 bind:
   ffms_zone_type: master
   ns_name: ns01
+  ffms_for_groups:
+    
+#legacy_domain: yes
+
+nameservers:
+- "62.141.32.3"
+- "62.141.32.4"
+- "62.141.32.5"
