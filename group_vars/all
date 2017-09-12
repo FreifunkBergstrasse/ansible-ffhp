@@ -1,4 +1,4 @@
-# Globale Variablen für alle Server 
+# Globale Variablen fr alle Server
 domaenen:
   "01":
     name: Heppenheim
@@ -280,7 +280,7 @@ batman:
 
 
 
-# Parameter für das eigene Freifunk-Netzwerk
+# Parameter fr das eigene Freifunk-Netzwerk
 ff_network:
   # Eindeutige AS-Nummer des Netzwerk
   as_number: 64646

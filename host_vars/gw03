@@ -1,7 +1,7 @@
 vm_id: 3
 server_id: 3
-server_besitzer: "Förderverein freie Infrastrukur / Freifunk Bergstraße"
-hoser: "Hetzner"
+server_besitzer: "Foerderverein freie Infrastrukur / Freifunk Bergstrasse"
+hoster: "Hetzner"
 
 server_ipv4_nat: 185.66.194.49/32 
     
