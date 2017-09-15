@@ -41,7 +41,7 @@ mapconfig:
 
 node_stats:
   graphite_target:
-    host: 176.9.38.157
+    host: 213.239.216.178
     port: 2003
 
 nginx_tiles_cache:
@@ -75,7 +75,7 @@ collectd:
   collect_ping: false
   collect_nginx: true
   graphite_target:
-    host: 176.9.38.157
+    host: 213.239.216.178
     port: 2003
 
 administratorenteam:

@@ -1,5 +1,5 @@
 [services]
-services		ansible_ssh_host=176.9.38.157
+services		ansible_ssh_host=213.239.216.178 ansible_ssh_port=223
 [mapserver]
 karte                   ansible_ssh_host=176.9.38.157
 [gateways]
