@@ -2,8 +2,6 @@ server_besitzer: "Freie Infrastruktur Bergstrasse"
 vm_id: 12
 server_id: 12
 
-ipv6: "2a01:4f8:150:4486::a3"
-
 mapconfig:
   hopglassServer:
     purge:
