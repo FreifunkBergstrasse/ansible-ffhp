@@ -1,0 +1,12 @@
+
+# Variablen für Server 
+
+id: 13
+server_besitzer: "Freie Infrastruktur Bergstraße"
+
+administratorenteam:
+  - "descilla"
+  - "mpw"
+  - "corny"
+  - "marcus"
+  - "christoph"
