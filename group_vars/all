@@ -289,7 +289,7 @@ ff_network:
   # IPv6 adressraum
   v6_network: 2a03:2260:1010::/48 
 
-hostname_suffix: ".server.freifunk-bergstrasse.de"
+hostname_suffix: ".servers.freifunk-bergstrasse.de"
 
 administratorenteam:
   - "mpw"
@@ -331,7 +331,7 @@ freifunk:
   domain: freifunk-bergstrasse.de
 
 bind_zonemaster:
-  server: services.server.freifunk-bergstrasse.de
+  server: services.servers.freifunk-bergstrasse.de
   email: info.freifunk-bergstrasse.de
 
 nameservers:
