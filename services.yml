@@ -1,5 +1,10 @@
 # Playbook zur Konfiguration aller Servern von services
 
+- name: Load hostvariables of group 'gateways'
+  hosts: gateways
+  remote_user: root
+  tasks: []
+
 - hosts: services
   remote_user: root
   roles:
