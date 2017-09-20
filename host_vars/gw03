@@ -3,7 +3,7 @@ server_id: 3
 server_besitzer: "Foerderverein freie Infrastrukur / Freifunk Bergstrasse"
 hoster: "Hetzner"
 
-server_ipv4_nat: 185.66.194.49/32 
+ffrl_nat_ip: 185.66.194.49/32 
     
 ffrl_tun:
 - name: fra0
