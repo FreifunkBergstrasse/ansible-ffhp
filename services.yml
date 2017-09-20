@@ -17,7 +17,7 @@
 #    - { role: alfred_json, tags: "alfred_json"}
     - { role: services_nginx, tags: "services_nginx"}
 #    - { role: services_node-stats, tags: "services_node-stats"}
-    - { role: services_bind, tags: "services_bind"}
+#    - { role: services_bind, tags: "services_bind"}
     - { role: services_ffapi, tags: "services_ffapi"}
     - { role: services_graphite, tags: "services_graphite"}
     - { role: collectd, tags: "collectd"}
