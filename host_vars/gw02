@@ -1,46 +1,28 @@
-vm_id: 4
-server_id: 4
-server_besitzer: "Freie Infrastruktur Bergstrasse"
+vm_id: 2
+server_id: 2
+server_besitzer: "Foerderverein freie Infrastrukur / Freifunk Bergstrasse"
+hoster: "Hetzner"
 
-server_ipv4_nat: 185.66.194.48/32 
-    
-ffrl_tun:
-- name: fra0
-  gre_target: 185.66.194.0 
-  v4_local:  100.64.5.173/31
-  v4_remote:  100.64.5.172/31
-  v6_local: 2a03:2260:0:2d7::2/64
-  v6_remote: 2a03:2260:0:2d7::1/64
+ffnw_nat_ip: 185.197.132.46/32
+
+ffnw_tun:
+- name: erf1 
+  gre_target: 87.118.74.56
+  v4_remote: 100.100.0.26/31
+  v6_remote: fe80::1/64
 - name: fra1
-  gre_target: 185.66.194.1
-  v4_local: 100.64.5.171/31
-  v4_remote: 100.64.5.178/31
-  v6_local: 2a03:2260:0:2da::2/64
-  v6_remote: 2a03:2260:0:2da::1/64
-- name: ber0
-  gre_target: 185.66.195.0
-  v4_local: 100.64.5.171/31
-  v4_remote: 100.64.5.170/31
-  v6_local: 2a03:2260:0:2d6::2/64
-  v6_remote: 2a03:2260:0:2d6::1/64
+  gre_target: 89.46.125.8
+  v4_remote: 100.100.32.26/31
+  v6_remote: fe80::1/64
+- name: ams1
+  gre_target: 185.116.236.32
+  v4_remote: 100.100.64.26/31
+  v6_remote: fe80::1/64
 - name: ber1
-  gre_target: 185.66.195.1
-  v4_local: 100.64.5.177/31
-  v4_remote: 100.64.5.176/31
-  v6_local: 2a03:2260:0:2d9::2/64
-  v6_remote: 2a03:2260:0:2d9::1/64
-- name: dus0
-  gre_target: 185.66.193.0
-  v4_local: 100.64.5.175/31
-  v4_remote: 100.64.5.174/31
-  v6_local: 2a03:2260:0:2d8::2/64
-  v6_remote: 2a03:2260:0:2d8::1/64
-- name: dus1
-  gre_target: 185.66.193.1
-  v4_local: 100.64.5.181/31
-  v4_remote: 100.64.5.180/31
-  v6_local: 2a03:2260:0:2db::2/64
-  v6_remote: 2a03:2260:0:2db::1/64
+  gre_target: 217.197.83.186
+  v4_remote: 100.100.96.26/31
+  v6_remote: fe80::1/64
+
 
 
 domaenenliste:
@@ -146,3 +128,19 @@ administratorenteam:
   - "mrs"
   - "mpw"
   - "klaus"
+
+dhcp_type: "kea"
+tunneldigger:
+  instance_per_domain: true 
+  interface: "eth0"
+  max_tunnels: 1024
+  port_base: 20100
+  pmtu_discovery: false
+  tunnel_timeout: 60
+nameservers:
+- "213.133.98.98"
+- "213.133.99.99"
+- "213.133.100.100"
+- "2a01:4f8:0:a0a1::add:1010"
+- "2a01:4f8:0:a102::add:9999"
+- "2a01:4f8:0:a111::add:9898"
