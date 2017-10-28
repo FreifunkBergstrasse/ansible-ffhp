@@ -29,105 +29,100 @@ domaenenliste:
    "01":
       dhcp_start: 10.1.164.128
       dhcp_ende: 10.1.167.254
-      server_id: 4
+      server_id: 2
    "02":
       dhcp_start: 10.1.172.128
       dhcp_ende: 10.1.175.254
-      server_id: 4
+      server_id: 2
    "03":
       dhcp_start: 10.1.180.128
       dhcp_ende: 10.1.183.254
-      server_id: 4
+      server_id: 2
    "04":
       dhcp_start: 10.1.188.128
       dhcp_ende: 10.1.191.254
-      server_id: 4
+      server_id: 2
    "05":
       dhcp_start: 10.58.4.128
       dhcp_ende: 10.58.7.254
-      server_id: 4
+      server_id: 2
    "06":
       dhcp_start: 10.58.12.128
       dhcp_ende: 10.58.15.254
-      server_id: 4
+      server_id: 2
    "07":
       dhcp_start: 10.58.20.128
       dhcp_ende: 10.58.23.254
-      server_id: 4
+      server_id: 2
    "08":
       dhcp_start: 10.58.28.128
       dhcp_ende: 10.58.31.254
-      server_id: 4
+      server_id: 2
    "09":
       dhcp_start: 10.58.36.128
       dhcp_ende: 10.58.39.254
-      server_id: 4
+      server_id: 2
    "10":
       dhcp_start: 10.58.44.128
       dhcp_ende: 10.58.47.254
-      server_id: 4
+      server_id: 2
    "11":
       dhcp_start: 10.58.52.128
       dhcp_ende: 10.58.55.254
-      server_id: 4
+      server_id: 2
    "12":
       dhcp_start: 10.58.60.128
       dhcp_ende: 10.58.63.254
-      server_id: 4
+      server_id: 2
    "13":
       dhcp_start: 10.58.68.128
       dhcp_ende: 10.58.71.254
-      server_id: 4
+      server_id: 2
    "14":
       dhcp_start: 10.58.76.128
       dhcp_ende: 10.58.79.254
-      server_id: 4
+      server_id: 2
    "15":
       dhcp_start: 10.58.84.128
       dhcp_ende: 10.58.87.254
-      server_id: 4
+      server_id: 2
    "16":
       dhcp_start: 10.58.92.128
       dhcp_ende: 10.58.95.254
-      server_id: 4
+      server_id: 2
    "17":
       dhcp_start: 10.58.100.128
       dhcp_ende: 10.58.103.254
-      server_id: 4
+      server_id: 2
    "18":
       dhcp_start: 10.58.108.128
       dhcp_ende: 10.58.111.254
-      server_id: 4
+      server_id: 2
    "19":
       dhcp_start: 10.58.116.128
       dhcp_ende: 10.58.119.254
-      server_id: 4
+      server_id: 2
    "20":
       dhcp_start: 10.58.124.128
       dhcp_ende: 10.58.127.254
-      server_id: 4
+      server_id: 2
    "21":
       dhcp_start: 10.58.132.128
       dhcp_ende: 10.58.135.254
-      server_id: 4
+      server_id: 2
    "22":
       dhcp_start: 10.58.140.128
       dhcp_ende: 10.58.143.254
-      server_id: 4
+      server_id: 2
    "23":
       dhcp_start: 10.58.148.128
       dhcp_ende: 10.58.151.254
-      server_id: 4
+      server_id: 2
    "36":
       dhcp_start: 10.58.252.128
       dhcp_ende: 10.58.255.254
-      server_id: 4
+      server_id: 2
 
-administratorenteam:
-  - "christoph"
-  - "mrs"
-  - "mpw"
-  - "klaus"
 
 dhcp_type: "kea"
 tunneldigger:
