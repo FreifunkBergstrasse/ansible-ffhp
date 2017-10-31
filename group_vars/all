@@ -14,7 +14,8 @@ domaenen:
       reservations:
         - ip: "10.1.160.20"
           id: "44:d9:e7:51:dc:86"
-
+	 -ip: "10.1.160.21"
+	  id: "52:54:00:02:79:b7"
   "02":
     name: Moerlenbach
     community: Bergstrasse
