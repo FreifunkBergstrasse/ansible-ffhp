@@ -14,7 +14,7 @@ domaenen:
       reservations:
         - ip: "10.1.160.20"
           id: "44:d9:e7:51:dc:86"
-          ip: "10.1.160.21"
+        - ip: "10.1.160.21"
           id: "52:54:00:02:79:b7"
   "02":
     name: Moerlenbach
@@ -330,7 +330,10 @@ freifunk:
   search_domain: "ffhp"
   email: info@freifunk-bergstrasse.de
   domain: freifunk-bergstrasse.de
-
+  ffnet_dns_entries_for_internal_tld:
+    "unifi":
+       A: 10.1.160.21
+       AAAA: 2a03:2260:1010:100:5054:ff:fe02:79b7
 bind_zonemaster:
   server: services.servers.freifunk-bergstrasse.de
   email: info.freifunk-bergstrasse.de
