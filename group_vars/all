@@ -330,14 +330,14 @@ freifunk:
   search_domain: "ffhp"
   email: info@freifunk-bergstrasse.de
   domain: freifunk-bergstrasse.de
-
+  ffnet_dns_entries_for_internal_tld:
+    "unifi":
+       A: 10.1.160.21
+       AAAA: 2a03:2260:1010:100:5054:ff:fe02:79b7
 bind_zonemaster:
   server: services.servers.freifunk-bergstrasse.de
   email: info.freifunk-bergstrasse.de
-  ffnet_dns_entries_for_internal_tld:
-    "unifi":                                                                                                                                        
-       A: 10.1.160.21
-       AAAA: 2a03:2260:1010:100:5054:ff:fe02:79b7
+
 nameservers:
 - "8.8.8.8"
 - "8.8.4.4"
