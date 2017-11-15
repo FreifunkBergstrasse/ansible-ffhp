@@ -1,4 +1,9 @@
 # Playbook zur Konfiguration aller Servern von services
+- name: get hostvars information
+  hosts: gateways
+  remote_user: root
+  tasks: []
+
 
 - hosts: mapserver
   remote_user: root
