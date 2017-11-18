@@ -10,7 +10,7 @@ gw03			ansible_ssh_host=176.9.38.150 ansible_ssh_port=222
 [domaene-06]
 # Server der ein Monitoring mittels icinga zur verfügung stellt.
 [monitoring] 
-#icinga                  ansible_ssh_host=2a01:4f8:a0:8209::4        ansible_ssh_port=22
+icinga                  ansible_ssh_host=2a01:4f8:a0:8209::4        ansible_ssh_port=22
 [monitoring-satellites]
 
 [vip-nodes]
