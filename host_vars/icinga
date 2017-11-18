@@ -10,3 +10,6 @@ administratorenteam:
   - "corny456"
   - "marcus"
   - "christoph"
+
+                                                            graphite_destination: graphite-node-01.freifunk-muensterland.de
+graphite_destination_port: 2003
