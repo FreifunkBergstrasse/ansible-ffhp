@@ -2,14 +2,14 @@
 # Variablen für Server 
 
 id: 13
-server_besitzer: "Freie Infrastruktur Bergstraße"
+server_besitzer: "Sven Culley / Sense"
 
 administratorenteam:
-  - "descilla"
   - "mpw"
-  - "corny456"
+  - "corny"
   - "marcus"
   - "christoph"
+  - "peterb"
 
-                                                            graphite_destination: graphite-node-01.freifunk-muensterland.de
+graphite_destination: graphite-node-01.freifunk-muensterland.de
 graphite_destination_port: 2003
