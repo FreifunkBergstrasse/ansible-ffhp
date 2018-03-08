@@ -1,0 +1,6 @@
+# Variablen fr die Host-Gruppe monitoring
+
+icinga_user:
+  marcus:
+    user: marcus
+    pw: marcus

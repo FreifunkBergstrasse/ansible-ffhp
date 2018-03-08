@@ -1,4 +1,3 @@
-
 # Variablen für Server 
 
 id: 13
@@ -13,3 +12,6 @@ administratorenteam:
 
 graphite_destination: 213.239.216.178
 graphite_destination_port: 2003
+
+domains:
+  "freifunk-bergstrasse.de":

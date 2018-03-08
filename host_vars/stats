@@ -8,7 +8,6 @@ grafana:
 graphite:
   nginx:
     host_name: "graphite.{{freifunk.domain}}"
-
   relay:
     method: "consistent-hashing"
   cache_instances:
